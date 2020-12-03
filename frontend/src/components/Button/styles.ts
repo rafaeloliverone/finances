@@ -3,7 +3,7 @@ import { shade } from 'polished';
 
 export const Container = styled.button`
   color: black;
-  background: #00FF65;
+  background: ${props => props.theme.colors.secondary};
   width: 100%;
   height: 56px;
   border: 0;
@@ -16,7 +16,7 @@ export const Container = styled.button`
   outline: none;
 
   &:hover {
-    background-color: ${shade(0.2, '#00FF65')};
+    background-color: ${shade(0.2, '#87FF65')};
     color: black;
     cursor: pointer;
   }
