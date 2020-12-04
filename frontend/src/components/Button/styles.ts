@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Container = styled.button`
-  color: black;
-  background: ${props => props.theme.colors.secondary};
+  color: ${props => props.theme.colors.text};;
+  background: ${props => props.theme.buttonColors.secondary};
   width: 100%;
   height: 56px;
   border: 0;
